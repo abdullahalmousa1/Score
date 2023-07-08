@@ -1,0 +1,77 @@
+.main {
+  height: 14.96731rem;
+  flex-shrink: 0;
+  background: rgba(23, 28, 37, 0.5);
+  backdrop-filter: blur(6px);
+  background-image: url("/images/premier-league.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: 2px solid #314161;
+  margin: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.rowtitle {
+  position: relative;
+}
+
+.matchtitle {
+  color: #ffffff;
+  margin: 0;
+  top: 40%;
+  position: absolute;
+  text-align: center;
+}
+
+.result {
+  color: #ffffff;
+  margin: 0;
+  top: 55%;
+  position: absolute;
+  text-align: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.title {
+  color: #ffffff;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: left;
+  position: absolute;
+  margin-left: 24px;
+  margin-top: 24px;
+  font-family: Poppins;
+}
+
+.textnumber {
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 0.5rem;
+  background: #050e1e;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lastline {
+  color: #ffffff;
+  margin: 0;
+  top: 80%;
+  position: absolute;
+  width: 100%;
+  gap: 5px;
+  padding: 0 5px;
+}
+
+.lineResult {
+  height: 2.1875rem;
+  font-size: 0.875rem;
+  opacity: 0.699999988079071;
+  background-color: #050e1e;
+  border-radius: 0.5rem;
+  line-height: 2.1875rem;
+}

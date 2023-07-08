@@ -1,0 +1,81 @@
+.title {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 6px;
+  font-family: Poppins;
+}
+
+.main {
+  background-color: #0f2757;
+  border-radius: 16px;
+  line-height: normal;
+  height: auto;
+  margin-top: 32px;
+  position: relative;
+}
+
+.matchDate {
+  color: #7e8da9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.team1 {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: Poppins;
+}
+
+.teamLogo {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.result {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.lastline {
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  gap: 5px;
+  padding: 0 5px;
+  margin-bottom: 12px;
+}
+
+.lineResult {
+  height: 2.1875rem;
+  font-size: 0.875rem;
+  background-color: #0B1B3D;
+  border-radius: 99999px;
+  line-height: 2.1875rem;
+}
+
+.dropbutton {
+  height: 2.1875rem;
+  font-size: 0.875rem;
+  background-color: #0B1B3D;
+  border-radius: 9999px;
+  line-height: 2.1875rem;
+  width: 24px;
+  height: 32px;
+  text-align: center !important;
+  display: flex;
+  z-index: auto;
+}
