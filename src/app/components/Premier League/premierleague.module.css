@@ -70,8 +70,7 @@
 .lineResult {
   height: 2.1875rem;
   font-size: 0.875rem;
-  opacity: 0.699999988079071;
-  background-color: #050e1e;
+  background-color: rgb(5,14,30,0.69);
   border-radius: 0.5rem;
   line-height: 2.1875rem;
 }

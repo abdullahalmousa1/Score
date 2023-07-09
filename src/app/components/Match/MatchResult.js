@@ -9,7 +9,7 @@ export default function MatchResult({ triggerYellow , matchData }) {
         className="row d-flex justify-content-between"
         style={{ paddingTop: "10px" }}
       >
-        <div className="col-10 d-flex justify-content-start">
+        <div className="col-10 d-flex justify-content-start" style={{alignItems:'center'}}>
           <img src="/images/Sports.svg" alt="" width={18} height={18} />
           <Link href='/matchResult' className={styles.title}>{matchData.text}</Link>
         </div>

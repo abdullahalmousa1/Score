@@ -24,6 +24,8 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .team1 {
@@ -33,6 +35,8 @@
   font-weight: 400;
   line-height: normal;
   font-family: Poppins;
+  display: flex;
+  align-items: center;
 }
 
 .teamLogo {
@@ -79,3 +83,5 @@
   display: flex;
   z-index: auto;
 }
+
+ 
