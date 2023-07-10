@@ -1,10 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+In this project I transformed Figma design to responsive design (html5,css3,Js) from scratch I used Bootstrap v5.3 to achieve responsive design on all screens and I intergrated that design with Next.JS@latest version project.
+
+![image](https://github.com/abdullahalmousa1/Score/assets/86103417/47e6a8fa-6ce9-4e59-aa10-8393554a8294)
+![image](https://github.com/abdullahalmousa1/Score/assets/86103417/caf8593f-9791-4dd4-a0ba-608eadf5d756)
+
 ## Getting Started
-
 First, run the development server:
-
-```bash
+#to install all required moudles 
+npm install
+#than start it using :
 npm run dev
 # or
 yarn dev
