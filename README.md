@@ -6,10 +6,9 @@ In this project I transformed Figma design to responsive design (html5,css3,Js) 
 ![image](https://github.com/abdullahalmousa1/Score/assets/86103417/caf8593f-9791-4dd4-a0ba-608eadf5d756)
 
 ## Getting Started
-First, run the development server:
-#to install all required moudles 
+First, install all required moudles using :
 npm install
-#than start it using :
+Then run the development server:
 npm run dev
 # or
 yarn dev
