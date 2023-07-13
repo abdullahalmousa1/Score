@@ -4,8 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <br/>
 <br/>
  
-![image](https://github.com/abdullahalmousa1/Score/assets/86103417/47e6a8fa-6ce9-4e59-aa10-8393554a8294)
-![image](https://github.com/abdullahalmousa1/Score/assets/86103417/caf8593f-9791-4dd4-a0ba-608eadf5d756)
+![image](https://github.com/abdullahalmousa1/Score/assets/86103417/06fc340a-12f1-4cfe-99fa-aba14398fe90)
+
 
 ## Getting Started
 #### First, install all required moudles using : <br/>
