@@ -9,8 +9,8 @@ export default function PremierLeague(props) {
         <span> England</span> {`>`} <span>Premier League</span>
         </p>
       </div>
-      <div className="row">
-        <p className={`${styles.matchtitle} text-center`}>
+      <div className="row justify-content-center">
+        <p className={`${styles.matchtitle}`}>
           Tottenham - Leicester City
         </p>
       </div>

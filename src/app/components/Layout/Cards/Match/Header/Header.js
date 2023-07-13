@@ -7,7 +7,7 @@ export default function Header() {
         <span className={styles.title}>Top Soccer Games</span>
       </div>
       <div className="col d-flex justify-content-end" style={{ gap: "15px" }}>
-        <Link href="/matchResult" className={styles.viewAllButton}>View All</Link>
+        <Link href="/matchdetail" className={styles.viewAllButton}>View All</Link>
         <button className={styles.viewAllButton}>
           <i className="bi bi-chevron-compact-right"></i>
         </button>

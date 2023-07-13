@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
-import PremierLeague from "./components/Premier League/Premier-League";
-import Main from "./components/main/main";
+import PremierLeague from "./components/Layout/Cards/PremierLeague/Premier-League";
+import Main from "./components/Layout/main/main";
 export default function Home() {
   return (
     <main className={styles.main}>

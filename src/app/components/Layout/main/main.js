@@ -1,6 +1,6 @@
-import MatchResult from "../Match/MatchResult";
-import Header from "../Match/Header/Header";
-import GetKey from "../utils/utils";
+import MatchCard from "../Cards/Match/Match";
+import Header from "../Cards/Match/Header/Header";
+import GetKey from "../../utils/utils";
 export default function Main({ pageNumbers, pageSizes }) {
   const page = [];
  
@@ -33,12 +33,12 @@ export default function Main({ pageNumbers, pageSizes }) {
             .map((item, rowIndex) => {
               return (
                 <div className="row" key={GetKey()}>
-                  <div className="col-sm-10">
+                  <div className="col-12 col-lg-10">
                     <div className="row" style={{ gap: "10px" }}>
                       {Array(3)
                         .fill()
                         .map((item, columnIndex) => (
-                          <MatchResult
+                          <MatchCard
                             key={GetKey()}
                             matchData = {matchData}
                             triggerYellow={triggerYellowColor(
@@ -49,7 +49,7 @@ export default function Main({ pageNumbers, pageSizes }) {
                         ))}
                     </div>
                   </div>
-                  <div className="col-sm-2"></div>
+                  <div className="col-2"></div>
                 </div>
               );
             })}

@@ -1,7 +1,7 @@
 import styles from "./match.module.css";
-import DropDownMenu from "../controls/dropDownMenu";
+import DropDownMenu from "../../../controls/dropDownMenu";
 import Link from "next/link";
-export default function MatchResult({ triggerYellow , matchData }) {
+export default function MatchCard({ triggerYellow , matchData }) {
  
   return (
     <div className={`${styles.main} col-md`}>
@@ -11,7 +11,7 @@ export default function MatchResult({ triggerYellow , matchData }) {
       >
         <div className="col-10 d-flex justify-content-start" style={{alignItems:'center'}}>
           <img src="/images/Sports.svg" alt="" width={18} height={18} />
-          <Link href='/matchResult' className={styles.title}>{matchData.text}</Link>
+          <Link href='/matchdetail' className={styles.title}>{matchData.text}</Link>
         </div>
         <div className="col-2 d-flex justify-content-end">
           <img src="/images/chart-simple.svg" alt="" width={14} height={14} />
@@ -66,7 +66,7 @@ export default function MatchResult({ triggerYellow , matchData }) {
         <p className={styles.result}>{matchData.result}</p>
       </div>
       <div className={`${styles.lastline} row d-flex justify-content-between`}>
-        <div className="col-sm col-11">
+        <div className="col-10 col-sm-11 col-md-9 col-lg-10 col-xl-10">
           <div className="row" style={{ gap: "3px" }}>
             <div
               className={`${styles.lineResult} col d-flex justify-content-between`}
@@ -94,9 +94,9 @@ export default function MatchResult({ triggerYellow , matchData }) {
           </div>
         </div>
         <div
-          className={`${styles.dropbutton} col-xs-auto col-1 justify-content-center`}
+          className={`${styles.dropbutton} col-2 col-sm-1 justify-content-center`}
         >
-            <DropDownMenu />
+           <DropDownMenu />
         </div>
       </div>
     </div>
