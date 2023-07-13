@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <div className="container-fluid">
+        <div className="container-fluid" style={{margin:'0 auto'}}>
           <div className="row">
             <div className="col-sm"><PremierLeague /></div>
             <div className="col-sm"><PremierLeague /></div>

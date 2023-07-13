@@ -3,7 +3,7 @@ import Header from "../Cards/Match/Header/Header";
 import GetKey from "../../utils/utils";
 export default function Main({ pageNumbers, pageSizes }) {
   const page = [];
- 
+
   const matchData = {
     text: "Argentina - Liga Professional",
     teamOne: "Barracas Central",
@@ -25,7 +25,11 @@ export default function Main({ pageNumbers, pageSizes }) {
     };
 
     return (
-      <div className="row" style={{ marginTop: "32px" }} key={pageNumber}>
+      <div
+        className="row"
+        style={{ marginTop: "32px", marginLeft: "auto", marginRight: "auto" }}
+        key={pageNumber}
+      >
         <Header />
         <div className="container">
           {Array(pageSize / 3)
@@ -40,7 +44,7 @@ export default function Main({ pageNumbers, pageSizes }) {
                         .map((item, columnIndex) => (
                           <MatchCard
                             key={GetKey()}
-                            matchData = {matchData}
+                            matchData={matchData}
                             triggerYellow={triggerYellowColor(
                               rowIndex,
                               columnIndex
