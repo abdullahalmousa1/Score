@@ -6,7 +6,7 @@ export default function PremierLeague(props) {
       <div className={`${styles.rowtitle} row`}>
         <p className={`${styles.title}`}>
         <img src="/images/Sport Icons.svg" alt="" width={18} height={18} />
-        <span> England</span> {`>`} <span>Premier League</span>
+        <span> England</span> <span className="p-2"> {`>`} </span> <span>Premier League</span>
         </p>
       </div>
       <div className="row justify-content-center">

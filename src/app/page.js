@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <div className="container-fluid" style={{margin:'0 auto'}}>
-          <div className="row">
+          <div className="row gx-1">
             <div className="col-sm"><PremierLeague /></div>
             <div className="col-sm"><PremierLeague /></div>
           </div>
