@@ -66,7 +66,7 @@ export default function MatchCard({ triggerYellow , matchData }) {
         <p className={styles.result}>{matchData.result}</p>
       </div>
       <div className={`${styles.lastline} row d-flex justify-content-between`}>
-        <div className="col-10 col-sm-11 col-md-9 col-lg-10 col-xl-10">
+        <div className="col-10 col-sm-11 col-md-9 col-lg-10 col-xl-11">
           <div className="row" style={{ gap: "3px" }}>
             <div
               className={`${styles.lineResult} col d-flex justify-content-between`}
